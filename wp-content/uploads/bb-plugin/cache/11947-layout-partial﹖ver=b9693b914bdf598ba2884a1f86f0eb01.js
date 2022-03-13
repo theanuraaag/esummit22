@@ -1,0 +1,2 @@
+
+(function($){$(function(){new VamtamAnimatedNumber({id:'58ecd12e47d55',layout:'circle',type:'standard',number:111597,max:111597,speed:1000,});});})(jQuery);(function($){$(function(){new VamtamAnimatedNumber({id:'58ecd1f99e6c3',layout:'circle',type:'standard',number:6330,max:10000,speed:1000,});});})(jQuery);(function($){$(function(){new VamtamAnimatedNumber({id:'58ecd2aac35e2',layout:'circle',type:'standard',number:5038,max:10000,speed:1000,});});})(jQuery);

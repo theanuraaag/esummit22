@@ -1,0 +1,138 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MANN – 2019 - ECPv5.13.0//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MANN – 2019
+X-ORIGINAL-URL:https://mann.vamtam.com
+X-WR-CALDESC:Events for MANN – 2019
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20220101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220509
+DTEND;VALUE=DATE:20220610
+DTSTAMP:20220312T171531
+CREATED:20140731T003656Z
+LAST-MODIFIED:20210708T134619Z
+UID:8178-1652054400-1654819199@mann.vamtam.com
+SUMMARY:Office Security Event
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	We are friends with the folks at these events and we can personally vouch for them! “Cyber Summits” are events that take place in 9 cities around the USA and not just New York. \nThis one in Manhattan is the largest and most prestigious of the nine conferences; “The Cyber Security Summit”which is an exclusive C-Suite conference series that has the objective of connecting senior level executives responsible for protecting their companies’ critical infrastructures. \nThis is a rather high-brow event takes place consistently during UN Week making it the “local Summit” for the producers as it attracts delegates from around the world. It’s filled with innovative solutions to contemporary threats and is certainly worth attending if you are a senior IT manager and/ or company director. \n	Each of these official Cyber Security Summits is always Keynoted by some of the highest ranking experts from The Dept. of Justice\, The FBI\, The NSA and or The US Secret Service to share the latest threat landscape to each city’s of business leaders. The main ‘thrust’ of this one day only conference\, or as they label it\, ‘summit’\, is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables led by subject matter experts from both government and commercial sectors. This is an event certainly worth attending if you live on the East Coast (New York\, Boston etc) and are responsible for your organization’s enterprise cybersecurity. Each attending executive is treated to a catered breakfast\, lunch & cocktail reception which includes complimentary fine cigars! The video below is something their marketing team put together.
+URL:https://mann.vamtam.com/classes/office-security-event/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Design,IT,Security
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2014/07/dark-header-10.jpg
+ORGANIZER;CN="Michael%20%26%20Ashley":MAILTO:junk@vamtam.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20220831T080000
+DTEND;TZID=UTC:20220831T080000
+DTSTAMP:20220312T171531
+CREATED:20140731T003116Z
+LAST-MODIFIED:20210708T134611Z
+UID:9209-1661932800-1661932800@mann.vamtam.com
+SUMMARY:New York Metro Joint Cyber Security Conference
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	Next on our list is the “New York Metro Joint Cyber Security Conference” which is actually a collaboration of leading information security industry organizations and chapters within the NYC region. We included this event because\, if you work in cyber security\, then this is a neat little event in which you can network and get to know ‘real’ industry professionals. Cyber Security groups in attendance will be: InfraGard (New York Metro)\, ISACA (New York Metro\, New Jersey and Greater Hartford Connecticut)\, ISC2 New Jersey\, ISSA (New York)\, OWASP (New York Metro\, Long Island\, Brooklyn)\, HTCIA (North East Region) and ACFE (New Jersey). \n	With such an awesome array of professionals under one roof this event had to make our list. If you want to network within information security then this is one event in NYC that you must not miss. \nAlthough the video below is a little old it is still a good example of what you can expect at this event. \n	Deadline and start date: \nApplication deadline and start date were not specified by the programme. \n	Programme intensity: \nYou can choose to do this programme part-time or full-time. \n	Delivery mode: \nOn Campus
+URL:https://mann.vamtam.com/classes/new-york-metro-joint-cyber-security-conference/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Design,Healthcare,Office
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-3.jpg
+ORGANIZER;CN="Michael":MAILTO:junk@vamtam.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20221031T070000
+DTEND;TZID=UTC:20221031T110000
+DTSTAMP:20220312T171531
+CREATED:20140731T003401Z
+LAST-MODIFIED:20210708T133513Z
+UID:9293-1667199600-1667214000@mann.vamtam.com
+SUMMARY:Cyber Security Summit NYC USA
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	We are friends with the folks at these events and we can personally vouch for them! “Cyber Summits” are events that take place in 9 cities around the USA and not just New York. \nThis one in Manhattan is the largest and most prestigious of the nine conferences; “The Cyber Security Summit”which is an exclusive C-Suite conference series that has the objective of connecting senior level executives responsible for protecting their companies’ critical infrastructures. \nThis is a rather high-brow event takes place consistently during UN Week making it the “local Summit” for the producers as it attracts delegates from around the world. It’s filled with innovative solutions to contemporary threats and is certainly worth attending if you are a senior IT manager and/ or company director. \n	Each of these official Cyber Security Summits is always Keynoted by some of the highest ranking experts from The Dept. of Justice\, The FBI\, The NSA and or The US Secret Service to share the latest threat landscape to each city’s of business leaders. The main ‘thrust’ of this one day only conference\, or as they label it\, ‘summit’\, is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables led by subject matter experts from both government and commercial sectors. This is an event certainly worth attending if you live on the East Coast (New York\, Boston etc) and are responsible for your organization’s enterprise cybersecurity. Each attending executive is treated to a catered breakfast\, lunch & cocktail reception which includes complimentary fine cigars! The video below is something their marketing team put together.
+URL:https://mann.vamtam.com/classes/cyber-security-summit-nyc-usa/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Design,Healthcare
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-4.jpg
+ORGANIZER;CN="Michael":MAILTO:junk@vamtam.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230501
+DTEND;VALUE=DATE:20230502
+DTSTAMP:20220312T171531
+CREATED:20140731T003401Z
+LAST-MODIFIED:20210708T134504Z
+UID:9292-1682899200-1682985599@mann.vamtam.com
+SUMMARY:Healthcare Security Summit: New York
+DESCRIPTION:Background tothis event\n	\n	If you live and work in the Tri-State area in a Cyber Security and Healthcare capacity then this is a ‘must go’ event. \nThe team behind this conference seem to be on top of their game. If it worth mentioning here that we also have a dedicated post to Healthcare Cybersecurity Events. \n\n	Structure ofthe event\n	\n	The Journal of Law and Cyber Warfare symposium brings speakers that are experts with cyber security and cyber warfare from the military\, government\, private industry\, and the public sector. Clearly\, another extremely interesting event if you work in the legal space. \nWe also have a post (and conference list) for Cybersecurity Legal events.
+URL:https://mann.vamtam.com/classes/healthcare-security-summit-new-york/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Design,Healthcare,Office,Security
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-2.jpg
+ORGANIZER;CN="Michael":MAILTO:junk@vamtam.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20230831T080000
+DTEND;TZID=UTC:20230831T090000
+DTSTAMP:20220312T171531
+CREATED:20140731T003656Z
+LAST-MODIFIED:20210708T134558Z
+UID:8179-1693468800-1693472400@mann.vamtam.com
+SUMMARY:Rochester Security Summit
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	The Rochester Security Summit takes place each year in Rochester\, NY\, USA. These events feature great locally sourced speakers and panels who aim to educate delegates in cyber security and IT. \nThese events\, which we suspect happen each year\, have a particular focus within Information Security. One of their most recent events looked at “Business Continuity and Growth” which was a two-day event “uniting business leaders\, finance\, real estate\, insurance\, risk and legal professionals to discuss the steps on protecting your company against cyber attacks”. The focus would have been for New Yorkers operating SME’s. \n	◎ Understand the principles of combustion processes\n◎ Differentiate between the types and applications\n◎ Understand security requirements\n◎ Comprehend ISO ratings and terminologies\n◎ Explain the various security cams components and their functions\n◎ Understand the generator principles and construction\n◎ Review plant layout requirements for single and multiple units\n◎ Learn about associated control panels and operation\n◎ Comprehend the testing and commissioning procedures\n◎ Understand plant performance troubleshooting techniques\n◎ Learn and apply good maintenance practices
+URL:https://mann.vamtam.com/classes/rochester-security-summit/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Healthcare,Security
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-9.jpg
+ORGANIZER;CN="Michael%20%26%20Ashley":MAILTO:junk@vamtam.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230911
+DTEND;VALUE=DATE:20230912
+DTSTAMP:20220312T171531
+CREATED:20140731T003401Z
+LAST-MODIFIED:20210708T134541Z
+UID:8708-1694390400-1694476799@mann.vamtam.com
+SUMMARY:The Annual JLCW Conference
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	The Journal of Law and Cyber Warfare symposium brings speakers that are experts with cyber security and cyber warfare from the military\, government\, private industry\, and the public sector. Clearly\, another extremely interesting event if you work in the legal space. \nWe also have a post (and conference list) for Cybersecurity Legal events. \n	If you live and work in the Tri-State area in a Cyber Security and Healthcare capacity then this is a ‘must go’ event. \nThe team behind this conference seem to be on top of their game. If it worth mentioning here that we also have a dedicated post to Healthcare Cybersecurity Events.
+URL:https://mann.vamtam.com/classes/the-annual-jlcw-conference/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Design,IT,Security
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2014/07/dark-header-12.jpg
+ORGANIZER;CN="Michael":MAILTO:junk@vamtam.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20231024T080000
+DTEND;TZID=UTC:20231024T170000
+DTSTAMP:20220312T171531
+CREATED:20140731T003116Z
+LAST-MODIFIED:20210708T134524Z
+UID:9273-1698134400-1698166800@mann.vamtam.com
+SUMMARY:NYS ITS (Annual) Cyber Security Conference
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	Next on our list of cyber events in New York that we’d recommend has been around for a long time; to be precise 18 years! 2016 will be the 19th year that the Annual Cyber Security Conference takes place. Abbreviated to NYSCSC this event is held mid year\, in 2015 it took place between June 2-3\, 2015 at the Empire State Plaza. \n	The conference this year had 1\,300 registrants. NYSCSC is one of the more recognized and established cyber security events that happens each year in New York. The event is co-hosted by the New York State Office of Information Technology Services Enterprise Information Security Office\, the NYS Forum\, and the University at Albany’s School of Business and College of Computing and Information. Clearly a ‘must-attend’ if you are living and working within the NYC region.
+URL:https://mann.vamtam.com/classes/nys-its-annual-cyber-security-conference/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Design,Office
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-6.jpg
+ORGANIZER;CN="Michael":MAILTO:junk@vamtam.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20231031T080000
+DTEND;TZID=UTC:20231031T090000
+DTSTAMP:20220312T171531
+CREATED:20140731T003656Z
+LAST-MODIFIED:20210708T133441Z
+UID:8180-1698739200-1698742800@mann.vamtam.com
+SUMMARY:International Conference on Cybersecurity
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	Fordham University (in New York) has an excellent and reputable Masters in Cybersecurity and they also organize a cyber security conference which takes place each year. \nWe like this event because of its’ longevity: 2018 will be its’ seventh year!\nThe team at Fordham have boldly titled their event: “The International Conference on Cyber Security (ICCS)” which always attracts highly knowledgeable speakers not only from the US but worldwide.\n	This is an excellent opportunity for those living and working in cyber on the East Coast who’d like to network with some very talented minds. The event\, abbreviated to ICCS\, spans three days and hosts more that 80 speakers from government\, the private sector\, and the academic world. \nThe cost for attending this event is expensive(ish) at $895 – please check the price for 2018 by searching for it in the link below or here.
+URL:https://mann.vamtam.com/classes/international-conference-on-cybersecurity/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Design,IT
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-1.jpg
+ORGANIZER;CN="Michael%20%26%20Ashley":MAILTO:junk@vamtam.com
+END:VEVENT
+END:VCALENDAR

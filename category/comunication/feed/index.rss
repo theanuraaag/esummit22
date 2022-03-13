@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Communication &#8211; MANN – 2019</title>
+	<atom:link href="https://mann.vamtam.com/category/comunication/feed/" rel="self" type="application/rss+xml" />
+	<link>https://mann.vamtam.com</link>
+	<description></description>
+	<lastBuildDate>Thu, 21 Feb 2019 13:40:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.2</generator>
+
+<image>
+	<url>https://mann.vamtam.com/wp-content/uploads/2018/10/cropped-fav_icon-32x32.png</url>
+	<title>Communication &#8211; MANN – 2019</title>
+	<link>https://mann.vamtam.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Will you be attending Affiliate Summit Europe?</title>
+		<link>https://mann.vamtam.com/will-you-be-attending-affiliate-summit-europe/</link>
+					<comments>https://mann.vamtam.com/will-you-be-attending-affiliate-summit-europe/#respond</comments>
+		
+		<dc:creator><![CDATA[Matthew Stone]]></dc:creator>
+		<pubDate>Tue, 11 Apr 2017 12:47:49 +0000</pubDate>
+				<category><![CDATA[Communication]]></category>
+		<guid isPermaLink="false">https://mann.vamtam.com/?p=11947</guid>
+
+					<description><![CDATA[As you're already in London for the LAC 2018, why not arrive a few days earlier and head to Affiliate Summit Europe 2018 too? The event gives you fantastic insight into what’s next on the performance marketing horizon. As you're already in London for the London Affiliate Conference 2018, why not arrive a few days...]]></description>
+		
+					<wfw:commentRss>https://mann.vamtam.com/will-you-be-attending-affiliate-summit-europe/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Workplaces of the World, It’s Time to Tell Your Story!</title>
+		<link>https://mann.vamtam.com/workplaces-of-the-world/</link>
+		
+		<dc:creator><![CDATA[Matthew Stone]]></dc:creator>
+		<pubDate>Fri, 06 Sep 2013 23:35:16 +0000</pubDate>
+				<category><![CDATA[Communication]]></category>
+		<guid isPermaLink="false">https://mann.vamtam.com/?p=5357</guid>
+
+					<description><![CDATA[What an incredible time it is for storytelling. There are so many accessible ways to create stories and so many mediums on which to share them. If you watched any of the Golden Globes this past week, you heard the cries for even more storytelling and story-sharing – it’s through our stories that we all...]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Women Want&#8230;From Their Job</title>
+		<link>https://mann.vamtam.com/what-women-want-from-their-job/</link>
+					<comments>https://mann.vamtam.com/what-women-want-from-their-job/#respond</comments>
+		
+		<dc:creator><![CDATA[Matthew Stone]]></dc:creator>
+		<pubDate>Wed, 28 Apr 2010 15:22:46 +0000</pubDate>
+				<category><![CDATA[Communication]]></category>
+		<guid isPermaLink="false">https://mann.vamtam.com/?p=12448</guid>
+
+					<description><![CDATA[Louis J. Erickson co-founded the company with me in 2000. We each own 50% of the company. I am the Chief Executive Officer and he is the Chief Operations Officer. Louis and I have been best friends for over 30 years. ]]></description>
+		
+					<wfw:commentRss>https://mann.vamtam.com/what-women-want-from-their-job/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Songs played at conferences and how to use them</title>
+		<link>https://mann.vamtam.com/audio-post/</link>
+					<comments>https://mann.vamtam.com/audio-post/#respond</comments>
+		
+		<dc:creator><![CDATA[Matthew Stone]]></dc:creator>
+		<pubDate>Mon, 22 Mar 2010 20:55:06 +0000</pubDate>
+				<category><![CDATA[Communication]]></category>
+		<guid isPermaLink="false">https://mann.vamtam.com/?p=299</guid>
+
+					<description><![CDATA[Adams also came to understand how important it was that his carefully crafted photos were reproduced to best effect. At Bender’s invitation, he joined the prestigious Roxburghe Club, an association devoted to fine printing and high standards in book arts.]]></description>
+		
+					<wfw:commentRss>https://mann.vamtam.com/audio-post/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

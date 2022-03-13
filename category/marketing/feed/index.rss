@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Marketing &#8211; MANN – 2019</title>
+	<atom:link href="https://mann.vamtam.com/category/marketing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://mann.vamtam.com</link>
+	<description></description>
+	<lastBuildDate>Thu, 21 Feb 2019 13:40:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.2</generator>
+
+<image>
+	<url>https://mann.vamtam.com/wp-content/uploads/2018/10/cropped-fav_icon-32x32.png</url>
+	<title>Marketing &#8211; MANN – 2019</title>
+	<link>https://mann.vamtam.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Did you standout on social media?</title>
+		<link>https://mann.vamtam.com/did-you-standout-on-social-media/</link>
+					<comments>https://mann.vamtam.com/did-you-standout-on-social-media/#respond</comments>
+		
+		<dc:creator><![CDATA[Matthew Stone]]></dc:creator>
+		<pubDate>Sat, 22 Mar 2014 20:56:53 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">https://mann.vamtam.com/?p=300</guid>
+
+					<description><![CDATA[Social Media is a big deal for us here at iGB Affiliate, we love to see what you've been doing in and around the show. LAC 2018 took place last week so it's now time for us to pick out our favourite five posts from #LAC2018. Yes, Chris may be our official photographer but god...]]></description>
+		
+					<wfw:commentRss>https://mann.vamtam.com/did-you-standout-on-social-media/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IGB Affiliate Awards 2018 winners</title>
+		<link>https://mann.vamtam.com/igb-affiliate-awards-2018-winners/</link>
+					<comments>https://mann.vamtam.com/igb-affiliate-awards-2018-winners/#respond</comments>
+		
+		<dc:creator><![CDATA[Matthew Stone]]></dc:creator>
+		<pubDate>Mon, 10 Mar 2014 19:55:11 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">https://mann.vamtam.com/?p=294</guid>
+
+					<description><![CDATA[We all need a little bit of education and LAC 2018 will have bags of it - check out some of the speakers who'll be filling your head with bright ideas at this year's show. The event, which takes place at the ExCel, London from 7th-10th February, is expected to attract in excess of 5,000...]]></description>
+		
+					<wfw:commentRss>https://mann.vamtam.com/igb-affiliate-awards-2018-winners/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Samsung Developer Conference 2017 Opening Keynote</title>
+		<link>https://mann.vamtam.com/samsung-developer-conference-2017-opening-keynote/</link>
+		
+		<dc:creator><![CDATA[Matthew Stone]]></dc:creator>
+		<pubDate>Sun, 28 Mar 2010 15:01:38 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">https://mann.vamtam.com/?p=12438</guid>
+
+					<description><![CDATA[It has never been more important for recruiters to perfect their “sales process” for identifying, nurturing, and hiring qualified talent. Consider the current hiring environment: According to the Bureau of Labor Statistics, the national unemployment rate in November 2016 was 4.6 percent –the lowest level seen since 2007. Employment is growing rapidly, especially in top...]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

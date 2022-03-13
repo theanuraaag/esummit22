@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MANN – 2019 - ECPv5.13.0//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MANN – 2019
+X-ORIGINAL-URL:https://mann.vamtam.com
+X-WR-CALDESC:Events for MANN – 2019
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20230101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20231031T080000
+DTEND;TZID=UTC:20231031T090000
+DTSTAMP:20220312T171757
+CREATED:20140731T003656Z
+LAST-MODIFIED:20210708T133441Z
+UID:8180-1698739200-1698742800@mann.vamtam.com
+SUMMARY:International Conference on Cybersecurity
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	Fordham University (in New York) has an excellent and reputable Masters in Cybersecurity and they also organize a cyber security conference which takes place each year. \nWe like this event because of its’ longevity: 2018 will be its’ seventh year!\nThe team at Fordham have boldly titled their event: “The International Conference on Cyber Security (ICCS)” which always attracts highly knowledgeable speakers not only from the US but worldwide.\n	This is an excellent opportunity for those living and working in cyber on the East Coast who’d like to network with some very talented minds. The event\, abbreviated to ICCS\, spans three days and hosts more that 80 speakers from government\, the private sector\, and the academic world. \nThe cost for attending this event is expensive(ish) at $895 – please check the price for 2018 by searching for it in the link below or here.
+URL:https://mann.vamtam.com/classes/international-conference-on-cybersecurity/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Design,IT
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-1.jpg
+ORGANIZER;CN="Michael%20%26%20Ashley":MAILTO:junk@vamtam.com
+END:VEVENT
+END:VCALENDAR

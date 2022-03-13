@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MANN – 2019 - ECPv5.13.0//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MANN – 2019
+X-ORIGINAL-URL:https://mann.vamtam.com
+X-WR-CALDESC:Events for MANN – 2019
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20230101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20230831T080000
+DTEND;TZID=UTC:20230831T090000
+DTSTAMP:20220312T171750
+CREATED:20140731T003656Z
+LAST-MODIFIED:20210708T134558Z
+UID:8179-1693468800-1693472400@mann.vamtam.com
+SUMMARY:Rochester Security Summit
+DESCRIPTION:Background tothis event\n	\n\n	Structure ofthe event\n	\n	The Rochester Security Summit takes place each year in Rochester\, NY\, USA. These events feature great locally sourced speakers and panels who aim to educate delegates in cyber security and IT. \nThese events\, which we suspect happen each year\, have a particular focus within Information Security. One of their most recent events looked at “Business Continuity and Growth” which was a two-day event “uniting business leaders\, finance\, real estate\, insurance\, risk and legal professionals to discuss the steps on protecting your company against cyber attacks”. The focus would have been for New Yorkers operating SME’s. \n	◎ Understand the principles of combustion processes\n◎ Differentiate between the types and applications\n◎ Understand security requirements\n◎ Comprehend ISO ratings and terminologies\n◎ Explain the various security cams components and their functions\n◎ Understand the generator principles and construction\n◎ Review plant layout requirements for single and multiple units\n◎ Learn about associated control panels and operation\n◎ Comprehend the testing and commissioning procedures\n◎ Understand plant performance troubleshooting techniques\n◎ Learn and apply good maintenance practices
+URL:https://mann.vamtam.com/classes/rochester-security-summit/
+LOCATION:Valencia Meet Center\, Valencia St\, San Francisco\, CA\, 900\, United States
+CATEGORIES:Conference,Healthcare,Security
+ATTACH;FMTTYPE=image/jpeg:https://mann.vamtam.com/wp-content/uploads/2018/06/dark-header-9.jpg
+ORGANIZER;CN="Michael%20%26%20Ashley":MAILTO:junk@vamtam.com
+END:VEVENT
+END:VCALENDAR
