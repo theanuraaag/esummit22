@@ -11,6 +11,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+    font-family: 'GenevieveW01-Regular' cursive !important;
 }
 .normal-logo{
     width: 180px !important;
