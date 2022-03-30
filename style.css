@@ -14,7 +14,7 @@
     font-family: 'GenevieveW01-Regular' cursive !important;
 }
 .normal-logo{
-    width: 180px !important;
+    width: 130px !important;
     margin: 10px !important;
 }
 .timeline{
@@ -37,7 +37,14 @@
     font-family: 'Kalam', cursive;
     font-size: 50px !important;
 }
-
+.Sub-Heading{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+.vamtam-heading{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size:x-large;
+}
 @media only screen and (max-width: 770px) {
     .normal-logo{
         width: 99px !important;
