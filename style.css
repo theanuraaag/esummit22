@@ -57,8 +57,9 @@
     font-family: 'Ubuntu Mono' !important;
     top:35%;left:32%;right:30%;
 }
-#one-day-pass{
-
+.register{
+    top: 107px !important;
+    left: -30px !important;
 }
 @media only screen and (max-width: 770px) {
     .normal-logo{
@@ -108,9 +109,15 @@
     #ticket-display{
         display: none;
     }
+    .passes{
+        font-size: 37px !important;
+    }
 }
 
 @media only screen and (max-width: 360px) {
+    .register{
+        width: 100%;
+    }
     #one-day-pass{
         top: -470px !important;
     }
@@ -163,5 +170,8 @@
     }
     #ticket-display{
         display: none;
+    }
+    .passes{
+        font-size: 37px !important;
     }
 }
