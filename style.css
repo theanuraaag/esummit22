@@ -61,6 +61,10 @@
     top: 107px !important;
     left: -30px !important;
 }
+.register2{
+    top: 107px !important;
+    left: -30px !important;
+}
 @media only screen and (max-width: 770px) {
     .normal-logo{
         width: 99px !important;
@@ -117,6 +121,12 @@
 @media only screen and (max-width: 360px) {
     .register{
         width: 100%;
+    }
+    .register2{
+        width: 65% !important;
+    }
+    .register2>span{
+        font-size: 13px !important;
     }
     #one-day-pass{
         top: -470px !important;
