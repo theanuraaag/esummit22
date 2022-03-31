@@ -57,6 +57,9 @@
     font-family: 'Ubuntu Mono' !important;
     top:35%;left:32%;right:30%;
 }
+#one-day-pass{
+
+}
 @media only screen and (max-width: 770px) {
     .normal-logo{
         width: 99px !important;
@@ -96,9 +99,27 @@
         left:20%;
         right:15%;
     }
+    #one-day-pass{
+        top: -500px !important;
+    }
+    #full-day-pass{
+        top: -100px !important;
+    }
+    #ticket-display{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 360px) {
+    #one-day-pass{
+        top: -470px !important;
+    }
+    #full-day-pass{
+        top: -70px !important;
+    }
+    #ticket-display{
+        display: none;
+    }
     .normal-logo{
         width: 100px !important;
     }
@@ -139,5 +160,8 @@
         top: 260px !important;
         left:11%;
         right:4%;   
+    }
+    #ticket-display{
+        display: none;
     }
 }
