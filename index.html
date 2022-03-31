@@ -2996,6 +2996,229 @@
       text-decoration: none;
       color: #fff;
     }
+
+    .compes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .competition_head {
+      margin-top: 80px;
+    }
+
+    /* cards */
+    .timelinecomp {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* background-color:#ec5935d3; */
+      color: #fff;
+
+      padding: 5px 0px;
+      background-color: transparent;
+
+    }
+
+    .swdaylg {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-items: center;
+      justify-content: center;
+      align-items: center;
+      min-height: 70%;
+      padding: 30px;
+      padding-top: 60px;
+      flex-direction: column;
+
+    }
+
+    .swdaylg .card {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      background: #000;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0px 0px 5px #121212;
+    }
+
+    @media(max-width:991px) {
+      .swdaylg .card {
+        position: relative;
+        width: 250px;
+        height: 300px;
+        background: #000;
+        overflow: hidden;
+      }
+
+      .timelinecomp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color:#ec5935d3; */
+        color: #fff;
+        padding: 5px 0px;
+
+      }
+
+    }
+
+    @media(max-width:1204px) {
+      .swdaylg .card {
+        position: relative;
+        width: 250px;
+        height: 300px;
+        background: #000;
+        overflow: hidden;
+      }
+
+      .swdaylg .card .mntext {
+        color: #fff;
+        font: 0.4rem !important;
+        text-transform: capitalize;
+        font-weight: 500;
+        background-color: rgba(0, 0, 0, 0.900);
+        letter-spacing: 5px;
+
+
+      }
+
+
+
+    }
+
+    .swdaylg .card input {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      bottom: 20px;
+      right: 20px;
+      outline: none;
+      z-index: 10;
+    }
+
+    .swdaylg .card .swtoggle {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      bottom: 20px;
+      color: rgb(255, 255, 255) i !important;
+      right: 20px;
+      outline: none;
+      z-index: 10;
+    }
+
+    .swdaylg .card input {
+      opacity: 0;
+    }
+
+    .swdaylg .card .swtoggle {
+      pointer-events: none;
+      border-radius: 50%;
+      background: rgb(0, 0, 0) !important;
+      transition: 0.5s;
+      text-align: center;
+
+      line-height: 50px;
+      font-size: 32px;
+      box-shadow: 0 0 0 0px #ffffff;
+    }
+
+    .swdaylg .card input:checked~.swtoggle {
+      box-shadow: 0 0 0 500px #121212;
+      ;
+      transform: rotate(135deg);
+    }
+
+    .dayheadlg {
+      display: inline-block !important;
+      text-transform: capitalize;
+      font-size: 5vw;
+    }
+
+    .swdaylg .card {
+
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .swdaylg .card .mntext {
+      color: #fff;
+      font: 1.7vw;
+      text-transform: capitalize;
+      font-weight: 500;
+      background-color: rgba(0, 0, 0, 0.900);
+      letter-spacing: 5px;
+      padding: 0px 5px;
+
+      font-family: 'Montserrat', sans-serif;
+
+
+    }
+
+    .swdaylg .card .swcontent {
+      position: absolute;
+      top: 10%;
+
+
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      z-index: 11;
+      pointer-events: none;
+      transition: 0.5s;
+      opacity: 0;
+
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .swdaylg .card .swcontent p {
+      color: #fff;
+      text-align: left;
+      /* 
+font-family: 'Merriweather', serif;
+font-family: 'Varela Round', sans-serif;
+ */
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      line-height: 21px;
+
+
+
+
+    }
+
+    @media(max-width:1202px) {
+      .swdaylg .card .swcontent {
+        font-size: 16px !important;
+      }
+    }
+
+
+    .swdaylg .card input:checked~.swcontent {
+      opacity: 1;
+      transition-delay: 0s;
+    }
+
+    .swdaylg .card .swcontent {
+      margin: 0;
+
+      color: #fff;
+    }
   </style>
 </head>
 
@@ -3220,7 +3443,7 @@
                                   <a href="#tickets" target="_self"
                                     class="vamtam-button accent1 hover-accent2 button-solid icon-animation-disable"
                                     role="button" style="font-size:14px;line-height:16px;padding:14px 28px;">
-                                    <span class="vamtam-button-text">Tickets</span>
+                                    <span class="vamtam-button-text">Starting Soon !</span>
                                   </a>
                                 </div>
                               </div>
@@ -3557,13 +3780,21 @@
                                           <img src="/images/mandala1.webp" class="tp-rs-img rs-lazyload mandala1"
                                             data-lazyload="/images/mandala1.webp" data-no-retina>
                                         </rs-layer>
-                                        <div section id="about" style="font-size: 3em; text-decoration: bold; text-align:center; color: white; z-index:22;font-family:'Pacifico';position:absolute; top:20%;left:40%;">About E-Summit 2022</div>
-                                        <div id="about-text" style="font-size: 1.5em; color: white; z-index:22;font-family:Roboto;position:absolute;  text-align: center; letter-spacing: 1%; word-spacing: 1%;">
-                                          The Annual Flagship Extravaganza hosted by Entrepreneurship Cell of Delhi Technological University.
-                                        E-Summit by E-Cell DTU is the largest entrepreneurship promoting event of Northern India. The event has served as host
-                                        to some of the eminent personalities from myriad industries over the many years. It continues to cultivate and nurture
-                                        numerous ideas every year, and provide an extraordinary platform putting forward the youth to exchange their ideas with
-                                        the sharpest brains of the corporate world, giving them innumerous insights and lessons to raise their business acumen.
+                                        <div section id="about"
+                                          style="font-size: 3em; text-decoration: bold; text-align:center; color: white; z-index:22;font-family:'Pacifico';position:absolute; top:20%;left:40%;">
+                                          About E-Summit 2022</div>
+                                        <div id="about-text"
+                                          style="font-size: 1.5em; color: white; z-index:22;font-family:Roboto;position:absolute;  text-align: center; letter-spacing: 1%; word-spacing: 1%;">
+                                          The Annual Flagship Extravaganza hosted by Entrepreneurship Cell of Delhi
+                                          Technological University.
+                                          E-Summit by E-Cell DTU is the largest entrepreneurship promoting event of
+                                          Northern India. The event has served as host
+                                          to some of the eminent personalities from myriad industries over the many
+                                          years. It continues to cultivate and nurture
+                                          numerous ideas every year, and provide an extraordinary platform putting
+                                          forward the youth to exchange their ideas with
+                                          the sharpest brains of the corporate world, giving them innumerous insights
+                                          and lessons to raise their business acumen.
                                         </div>
                                         <rs-layer id="slider-86-slide-284-layer-19" class="rs-pxl-4" data-type="image"
                                           data-rsp_ch="on"
@@ -5308,7 +5539,7 @@
                                           data-frame_hover="c:#fff;bgc:#f20487;boc:#000;bor:0px,0px,0px,0px;bos:solid;oX:50;oY:50;"
                                           style="z-index:11;background-color:#ffffff;font-family:Roboto;cursor:pointer;outline:none;box-shadow:0 10px 40px 0 #291183;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
                                           <rs-bg-elem style="position:absolute; top:0px;left:0px;"></rs-bg-elem>
-                                          RESERVE YOUR SEAT
+                                          Starting Soon !
                                         </rs-layer>
                                       </rs-slide>
                                     </rs-slides>
@@ -5379,8 +5610,10 @@
                                     class="fl-module fl-module-vamtam-pricing-table fl-node-5b11becf9f35a vamtam-add-shadow"
                                     data-node="5b11becf9f35a">
                                     <div class="fl-module-content fl-node-content">
-                                      <div class="fl-pricing-table fl-pricing-table-spacing-large fl-pricing-table-border-small fl-pricing-table-rounded">
-                                        <div class="fl-pricing-table-col-3" style="visibility:hidden" id="ticket-display">
+                                      <div
+                                        class="fl-pricing-table fl-pricing-table-spacing-large fl-pricing-table-border-small fl-pricing-table-rounded">
+                                        <!-- <div class="fl-pricing-table-col-3" style="visibility:hidden"
+                                          id="ticket-display">
                                           <div class="fl-pricing-table-column fl-pricing-table-column-0">
                                             <div class="fl-pricing-table-inner-wrap"
                                               style="border:0;filter:drop-shadow( 0 0 10px rgba(0,0,0, 0.05 ) );color:#4a4a4a;">
@@ -5405,8 +5638,8 @@
                                               </div>
                                             </div>
                                           </div>
-                                        </div>
-                                        <div class="fl-pricing-table-col-3" id="full-day-pass">
+                                        </div> -->
+                                        <!-- <div class="fl-pricing-table-col-3" id="full-day-pass">
                                           <div class="fl-pricing-table-column fl-pricing-table-column-1">
                                             <div class="fl-pricing-table-inner-wrap"
                                               style="border:0;filter:drop-shadow( 0 0 10px rgba(0,0,0, 0.05 ) );color:#121559;">
@@ -5431,39 +5664,40 @@
                                               </div>
                                             </div>
                                           </div>
-                                        </div>
+                                        </div> -->
                                       </div>
                                       <div class="fl-module-content fl-node-content">
                                         <div
                                           class="fl-pricing-table fl-pricing-table-spacing-large fl-pricing-table-border-small fl-pricing-table-rounded">
 
-                                        <div class="fl-pricing-table-col-3" style="visibility:hidden">
-                                          <div class="fl-pricing-table-column fl-pricing-table-column-0">
-                                            <div class="fl-pricing-table-inner-wrap"
-                                              style="border:0;filter:drop-shadow( 0 0 10px rgba(0,0,0, 0.05 ) );color:#4a4a4a;">
-                                              <div class="fl-pricing-table-inner-wrap-top" style="background:#ffffff;">
-                                                <h2 class="fl-pricing-table-title">1DAY PASS</h2>
-                                              </div>
-                                              <div class="fl-pricing-table-inner-wrap-bottom"
-                                                style="background:#ffffff;">
-                                                <div class="fl-pricing-table-price"
-                                                  style="background:#ffffff;color:#121559;">
-                                                  $399
+                                          <!-- <div class="fl-pricing-table-col-3" style="visibility:hidden">
+                                            <div class="fl-pricing-table-column fl-pricing-table-column-0">
+                                              <div class="fl-pricing-table-inner-wrap"
+                                                style="border:0;filter:drop-shadow( 0 0 10px rgba(0,0,0, 0.05 ) );color:#4a4a4a;">
+                                                <div class="fl-pricing-table-inner-wrap-top"
+                                                  style="background:#ffffff;">
+                                                  <h2 class="fl-pricing-table-title">1DAY PASS</h2>
                                                 </div>
-                                                <div class="vamtam-button-wrap vamtam-button-width-auto"
-                                                  style="text-align:center">
-                                                  <a href="../events/index.html" target="_self"
-                                                    class="vamtam-button accent1 hover-accent2 button-solid icon-animation-disable"
-                                                    role="button"
-                                                    style="font-size:14px;line-height:16px;padding:18px 36px;">
-                                                    <span class="vamtam-button-text">Get Ticket</span>
-                                                  </a>
+                                                <div class="fl-pricing-table-inner-wrap-bottom"
+                                                  style="background:#ffffff;">
+                                                  <div class="fl-pricing-table-price"
+                                                    style="background:#ffffff;color:#121559;">
+                                                    $399
+                                                  </div>
+                                                  <div class="vamtam-button-wrap vamtam-button-width-auto"
+                                                    style="text-align:center">
+                                                    <a href="../events/index.html" target="_self"
+                                                      class="vamtam-button accent1 hover-accent2 button-solid icon-animation-disable"
+                                                      role="button"
+                                                      style="font-size:14px;line-height:16px;padding:18px 36px;">
+                                                      <span class="vamtam-button-text">Get Ticket</span>
+                                                    </a>
+                                                  </div>
                                                 </div>
                                               </div>
                                             </div>
-                                          </div>
-                                        </div>
-                                          <div class="fl-pricing-table-col-3" id="one-day-pass">
+                                          </div> -->
+                                          <!-- <div class="fl-pricing-table-col-3" id="one-day-pass">
                                             <div class="fl-pricing-table-column fl-pricing-table-column-0">
                                               <div class="fl-pricing-table-inner-wrap"
                                                 style="border:0;filter:drop-shadow( 0 0 10px rgba(0,0,0, 0.05 ) );color:#4a4a4a;">
@@ -5489,7 +5723,178 @@
                                                 </div>
                                               </div>
                                             </div>
+                                          </div> -->
+
+                                          <div class="compes" id="compes">
+                                            <div class="fl-module fl-module-vamtam-heading fl-node-5b11bf2281cd1"
+                                              data-node="5b11bf2281cd1">
+                                              <div class="fl-module-content fl-node-content">
+                                                <h1 class="vamtam-heading ">
+                                                  <span class="vamtam-heading-text Sub-Heading Price"></span>
+                                                </h1>
+                                              </div>
+                                            </div>
+                                            <!-- cards -->
+                                            <div class="timelinecomp">
+
+                                              <div class="swdaylg">
+                                                <div class="card"
+                                                  style="background-image: url();; background-position: center; background-size: cover;">
+                                                  <input type="checkbox">
+                                                  <!-- <div class="swtoggle">+</div> -->
+                                                  <div class="imgBx">
+                                                    <div class="mntext" style="text-align: center;">
+                                                      One Day Pass <br> ₹300
+                                                    </div>
+
+                                                  </div>
+                                                  <div class="swcontent">
+
+                                                    <p>
+
+                                                    </p>
+                                                  </div>
+
+
+                                                </div>
+                                              </div>
+                                              <div class="swdaylg">
+                                                <div class="card"
+                                                  style="background-image: url();; background-position: center; background-size: cover;">
+                                                  <input type="checkbox">
+                                                  <!-- <div class="swtoggle">+</div> -->
+                                                  <div class="imgBx">
+                                                    <div class="mntext" style="text-align: center;">
+                                                      Full 3 Day Pass <br> ₹500
+                                                    </div>
+
+                                                  </div>
+                                                  <div class="swcontent">
+                                                    <p>
+
+                                                    </p>
+
+                                                  </div>
+
+
+                                                </div>
+                                              </div>
+                                            </div>
                                           </div>
+
+
+                                          <div class="compes" id="compes">
+                                            <div class="fl-module fl-module-vamtam-heading fl-node-5b11bf2281cd1"
+                                              data-node="5b11bf2281cd1">
+                                              <div class="fl-module-content fl-node-content">
+                                                <h1 class="vamtam-heading ">
+                                                  <span
+                                                    class="vamtam-heading-text Sub-Heading Price">Competitions</span>
+                                                </h1>
+                                              </div>
+                                            </div>
+                                            <!-- cards -->
+                                            <div class="timelinecomp">
+                                              <div class="swdaylg">
+                                                <div class="card"
+                                                  style="background-image: url(/images/Competetions/Technical_Case_Matrix.webp); background-position: center; background-size: cover;">
+                                                  <input type="checkbox">
+                                                  <div class="swtoggle">+</div>
+                                                  <div class="imgBx">
+                                                    <div class="mntext">
+
+                                                    </div>
+
+                                                  </div>
+                                                  <div class="swcontent">
+                                                    <p>
+                                                      'Technical Case Matrix
+                                                      Competition', presented by Bosch. This will be an ideal showcase
+                                                      event that revolves around students' business acumen.
+                                                      With the goal to give college students real-world experience and
+                                                      improve their case study skills, this competition is perfect
+                                                      opportunity for one to showcase their technical skills in the
+                                                      world of case study!
+                                                    </p>
+                                                  </div>
+                                                  <div class="vamtam-button-wrap vamtam-button-width-auto"
+                                                  style="text-align:center"  >
+                                                  <a href="https://dare2compete.com/o/b7y9vf8?lb=2nSXryW" target="_self"
+                                                    class="vamtam-button accent1 hover-accent2 button-solid icon-animation-disable"
+                                                    role="button"
+                                                    style="font-size:14px;line-height:16px;padding:18px 36px;">
+                                                    <span class="vamtam-button-text">Register Now !</span>
+                                                  </a>
+                                                </div>
+
+                                                </div>
+                                              </div>
+                                              <div class="swdaylg">
+                                                <div class="card"
+                                                  style="background-image: url(/images/Competetions/Havells_Hardware.webp);; background-position: center; background-size: cover;">
+                                                  <input type="checkbox">
+                                                  <div class="swtoggle">+</div>
+                                                  <div class="imgBx">
+                                                    <div class="mntext">
+
+                                                    </div>
+
+                                                  </div>
+                                                  <div class="swcontent">
+
+                                                    <p>
+                                                      Havells in collaboration with E-Cell DTU brings to you one of its
+                                                      kind hardware fest wherein participants will come up with a
+                                                      technical hardware product or its prototype like (but not limited
+                                                      to) mini-robots, Arduino based projects, etc.
+                                                    </p>
+                                                  </div>
+                                                  <div class="vamtam-button-wrap vamtam-button-width-auto"
+                                                    style="text-align:center"  >
+                                                    <a href="https://hubfest.ecelldtu.in/" target="_self"
+                                                      class="vamtam-button accent1 hover-accent2 button-solid icon-animation-disable"
+                                                      role="button"
+                                                      style="font-size:14px;line-height:16px;padding:18px 36px;">
+                                                      <span class="vamtam-button-text">Register Now !</span>
+                                                    </a>
+                                                  </div>
+
+                                                </div>
+                                              </div>
+                                              <div class="swdaylg">
+                                                <div class="card"
+                                                  style="background-image: url(/images/Competetions/Startupthon.webp);; background-position: center; background-size: cover;">
+                                                  <input type="checkbox">
+                                                  <div class="swtoggle">+</div>
+                                                  <div class="imgBx">
+                                                    <div class="mntext">
+
+                                                    </div>
+
+                                                  </div>
+                                                  <div class="swcontent">
+                                                    <p>
+                                                      'Startupthon' will be your chance to pitch your venture plans to
+                                                      world-class business professionals and experienced entrepreneurs!
+                                                    </p>
+
+                                                  </div>
+                                                  <div class="vamtam-button-wrap vamtam-button-width-auto"
+                                                  style="text-align:center"  >
+                                                  <a href="https://dare2compete.com/competition/startupthon-delhi-technological-university-dtu-new-delhi-276014" target="_self"
+                                                    class="vamtam-button accent1 hover-accent2 button-solid icon-animation-disable"
+                                                    role="button"
+                                                    style="font-size:14px;line-height:16px;padding:18px 36px;">
+                                                    <span class="vamtam-button-text">Register Now !</span>
+                                                  </a>
+                                                </div>
+
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+
                                           <div class="fl-pricing-table-col-3">
                                             <div class="fl-pricing-table-column fl-pricing-table-column-1">
                                               <div>
@@ -5520,8 +5925,8 @@
                       </div>
                     </div>
                   </div>
-
-                  <div section id="sponsors"
+                  <!-- Sponosors -->
+                  <!-- <div section id="sponsors"
                     class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5b2c48d1ef572 fl-row-bg-attachment-scroll"
                     data-node="5b2c48d1ef572">
                     <div class="fl-row-content-wrap Back-grad">
@@ -5542,9 +5947,9 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <div style="background-color: #FFFFFF;">
-                    <div
+                    <!--     <div
                       class="fl-row fl-row-full-width fl-row-bg-none fl-node-5b2c49228c5cd fl-row-bg-attachment-scroll"
                       data-node="5b2c49228c5cd">
                       <div class="fl-row-content-wrap">
@@ -5725,10 +6130,10 @@
                       </div>
                     </div>
 
+                  -->
 
 
-
-                    <div section id="all-speakers"
+                    <!-- <div section id="all-speakers"
                       class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5b2c4c8fc9ced fl-row-bg-attachment-scroll "
                       data-node="5b2c4c8fc9ced">
                       <div class="fl-row-content-wrap Back-grad">
@@ -5749,8 +6154,8 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div
+                    </div> -->
+                    <!-- <div 
                       class="fl-row fl-row-full-width fl-row-bg-none fl-node-5b2c4ceb46320 fl-row-bg-attachment-scroll"
                       data-node="5b2c4ceb46320">
                       <div class="fl-row-content-wrap">
@@ -5967,14 +6372,14 @@
                                         </div>
                                       </div>
                                     </div>
-                                  </div> -->
+                                  </div> 
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
 
 
                     <div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5b2c4c0a0a31e
@@ -6013,15 +6418,14 @@
                                     <div class="fl-photo fl-photo-align-center" itemscope
                                       itemtype="http://schema.org/ImageObject">
                                       <div class="fl-photo-content fl-photo-img-jpg">
-                                        <a href="/images/10.webp" target="_self"
-                                          itemprop="url" title="pastevent-10">
+                                        <a href="/images/10.webp" target="_self" itemprop="url" title="pastevent-10">
                                           <img loading="lazy"
                                             class="fl-photo-img wp-image-15996 size-full vamtam-lazyload-noparent"
-                                            src="/images/10.webp" alt="pastevent-10"
-                                            itemprop="image" height="853" width="1080" data-link-type="lightbox"
-                                            title="pastevent-10" sizes="(max-width: 768px) 100vw, 20vw"
+                                            src="/images/10.webp" alt="pastevent-10" itemprop="image" height="853"
+                                            width="1080" data-link-type="lightbox" title="pastevent-10"
+                                            sizes="(max-width: 768px) 100vw, 20vw"
                                             srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%201080%20853&quot;%20height=&quot;853px&quot;%20width=&quot;1080px&quot;/&gt;"
-                                            data-srcset="/images/10.webp 1080w"/>
+                                            data-srcset="/images/10.webp 1080w" />
                                         </a>
                                       </div>
                                     </div>
@@ -6036,13 +6440,12 @@
                                     <div class="fl-photo fl-photo-align-center" itemscope
                                       itemtype="http://schema.org/ImageObject">
                                       <div class="fl-photo-content fl-photo-img-jpg">
-                                        <a href="/images/11.webp" target="_self"
-                                          itemprop="url" title="pastevent-9">
+                                        <a href="/images/11.webp" target="_self" itemprop="url" title="pastevent-9">
                                           <img loading="lazy"
                                             class="fl-photo-img wp-image-15995 size-full vamtam-lazyload-noparent"
-                                            src="/images/11.webp" alt="pastevent-9"
-                                            itemprop="image" height="853" width="1080" data-link-type="lightbox"
-                                            title="pastevent-9" sizes="(max-width: 768px) 100vw, 20vw"
+                                            src="/images/11.webp" alt="pastevent-9" itemprop="image" height="853"
+                                            width="1080" data-link-type="lightbox" title="pastevent-9"
+                                            sizes="(max-width: 768px) 100vw, 20vw"
                                             srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%201080%20853&quot;%20height=&quot;853px&quot;%20width=&quot;1080px&quot;/&gt;"
                                             data-srcset="/images/11.webp 1080w" />
                                         </a>
@@ -6059,13 +6462,12 @@
                                     <div class="fl-photo fl-photo-align-center" itemscope
                                       itemtype="http://schema.org/ImageObject">
                                       <div class="fl-photo-content fl-photo-img-jpg">
-                                        <a href="/images/12.webp" target="_self"
-                                          itemprop="url" title="pastevent-7">
+                                        <a href="/images/12.webp" target="_self" itemprop="url" title="pastevent-7">
                                           <img loading="lazy"
                                             class="fl-photo-img wp-image-15993 size-full vamtam-lazyload-noparent"
-                                            src="/images/12.webp" alt="pastevent-7"
-                                            itemprop="image" height="853" width="1080" data-link-type="lightbox"
-                                            title="pastevent-7" sizes="(max-width: 768px) 100vw, 20vw"
+                                            src="/images/12.webp" alt="pastevent-7" itemprop="image" height="853"
+                                            width="1080" data-link-type="lightbox" title="pastevent-7"
+                                            sizes="(max-width: 768px) 100vw, 20vw"
                                             srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%201080%20853&quot;%20height=&quot;853px&quot;%20width=&quot;1080px&quot;/&gt;"
                                             data-srcset="/images/12.webp 1080w" />
                                         </a>
@@ -6082,15 +6484,14 @@
                                     <div class="fl-photo fl-photo-align-center" itemscope
                                       itemtype="http://schema.org/ImageObject">
                                       <div class="fl-photo-content fl-photo-img-jpg">
-                                        <a href="/images/13.webp" target="_self"
-                                          itemprop="url" title="pastevent-8">
+                                        <a href="/images/13.webp" target="_self" itemprop="url" title="pastevent-8">
                                           <img loading="lazy"
                                             class="fl-photo-img wp-image-15994 size-full vamtam-lazyload-noparent"
-                                            src="/images/13.webp" alt="pastevent-8"
-                                            itemprop="image" height="853" width="1080" data-link-type="lightbox"
-                                            title="pastevent-8" sizes="(max-width: 768px) 100vw, 20vw"
+                                            src="/images/13.webp" alt="pastevent-8" itemprop="image" height="853"
+                                            width="1080" data-link-type="lightbox" title="pastevent-8"
+                                            sizes="(max-width: 768px) 100vw, 20vw"
                                             srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%201080%20853&quot;%20height=&quot;853px&quot;%20width=&quot;1080px&quot;/&gt;"
-                                            data-srcset="/images/13.webp 1080w"/>
+                                            data-srcset="/images/13.webp 1080w" />
                                         </a>
                                       </div>
                                     </div>
@@ -6105,13 +6506,12 @@
                                     <div class="fl-photo fl-photo-align-center" itemscope
                                       itemtype="http://schema.org/ImageObject">
                                       <div class="fl-photo-content fl-photo-img-jpg">
-                                        <a href="/images/14.webp" target="_self"
-                                          itemprop="url" title="pastevent-6">
+                                        <a href="/images/14.webp" target="_self" itemprop="url" title="pastevent-6">
                                           <img loading="lazy"
                                             class="fl-photo-img wp-image-15992 size-full vamtam-lazyload-noparent"
-                                            src="/images/14.webp" alt="pastevent-6"
-                                            itemprop="image" height="853" width="1080" data-link-type="lightbox"
-                                            title="pastevent-6" sizes="(max-width: 768px) 100vw, 20vw"
+                                            src="/images/14.webp" alt="pastevent-6" itemprop="image" height="853"
+                                            width="1080" data-link-type="lightbox" title="pastevent-6"
+                                            sizes="(max-width: 768px) 100vw, 20vw"
                                             srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%201080%20853&quot;%20height=&quot;853px&quot;%20width=&quot;1080px&quot;/&gt;"
                                             data-srcset="/images/14.webp 1080w" />
                                         </a>
@@ -6125,7 +6525,10 @@
                         </div>
                       </div>
                     </div>
-                    <div
+
+
+                    <!-- Past Sponsors -->
+                    <!-- <div
                       class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5b2c4cf3d14c1 fl-row-bg-attachment-scroll"
                       data-node="5b2c4cf3d14c1">
                       <div class="fl-row-content-wrap Back-grad">
@@ -6146,8 +6549,8 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div
+                    </div> -->
+                    <!--<div
                       class="fl-row fl-row-full-width fl-row-bg-none fl-node-5b2c4d07bf133 fl-row-bg-attachment-scroll"
                       data-node="5b2c4d07bf133">
                       <div class="fl-row-content-wrap">
@@ -6167,9 +6570,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15823 size-full"
-                                                src="/images/past_sponosrs/igl.webp"
-                                                alt="Logo-example-2-01" itemprop="image" height="" width=""
-                                                title="Logo-example-2-01" />
+                                                src="/images/past_sponosrs/igl.webp" alt="Logo-example-2-01"
+                                                itemprop="image" height="" width="" title="Logo-example-2-01" />
                                             </div>
                                           </div>
                                         </div>
@@ -6185,9 +6587,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15821 size-full"
-                                                src="/images/past_sponosrs/havells.webp"
-                                                alt="Logo-example-5-01" itemprop="image" height="" width=""
-                                                title="Logo-example-5-01" />
+                                                src="/images/past_sponosrs/havells.webp" alt="Logo-example-5-01"
+                                                itemprop="image" height="" width="" title="Logo-example-5-01" />
                                             </div>
                                           </div>
                                         </div>
@@ -6203,9 +6604,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15824 size-full"
-                                                src="/images/past_sponosrs/techobyte.webp"
-                                                alt="Logo-example-6-01" itemprop="image" height="" width=""
-                                                title="Logo-example-6-01" />
+                                                src="/images/past_sponosrs/techobyte.webp" alt="Logo-example-6-01"
+                                                itemprop="image" height="" width="" title="Logo-example-6-01" />
                                             </div>
                                           </div>
                                         </div>
@@ -6221,9 +6621,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15822 size-full"
-                                                src="/images/past_sponosrs/cont_carbon.webp"
-                                                alt="Logo-example-1" itemprop="image" height="" width=""
-                                                title="Logo-example-1" />
+                                                src="/images/past_sponosrs/cont_carbon.webp" alt="Logo-example-1"
+                                                itemprop="image" height="" width="" title="Logo-example-1" />
                                             </div>
                                           </div>
                                         </div>
@@ -6236,7 +6635,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> 
                     <div
                       class="fl-row fl-row-full-width fl-row-bg-none fl-node-5b2c4d13461a4 fl-row-bg-attachment-scroll"
                       data-node="5b2c4d13461a4">
@@ -6257,9 +6656,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15822 size-full"
-                                                src="/images/past_sponosrs/dcm.webp"
-                                                alt="Logo-example-1" itemprop="image" height="" width=""
-                                                title="Logo-example-1" />
+                                                src="/images/past_sponosrs/dcm.webp" alt="Logo-example-1"
+                                                itemprop="image" height="" width="" title="Logo-example-1" />
                                             </div>
                                           </div>
                                         </div>
@@ -6275,9 +6673,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15824 size-full"
-                                                src="/images/past_sponosrs/ntpc.webp"
-                                                alt="Logo-example-6-01" itemprop="image" height="" width=""
-                                                title="Logo-example-6-01" />
+                                                src="/images/past_sponosrs/ntpc.webp" alt="Logo-example-6-01"
+                                                itemprop="image" height="" width="" title="Logo-example-6-01" />
                                             </div>
                                           </div>
                                         </div>
@@ -6293,9 +6690,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15823 size-full"
-                                                src="/images/past_sponosrs/gail.webp"
-                                                alt="Logo-example-2-01" itemprop="image" height="" width=""
-                                                title="Logo-example-2-01" />
+                                                src="/images/past_sponosrs/gail.webp" alt="Logo-example-2-01"
+                                                itemprop="image" height="" width="" title="Logo-example-2-01" />
                                             </div>
                                           </div>
                                         </div>
@@ -6311,9 +6707,8 @@
                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
                                               <img loading="lazy" class="fl-photo-img wp-image-15821 size-full"
-                                                src="images/past_sponosrs/pvr.webp"
-                                                alt="Logo-example-5-01" itemprop="image" height="" width=""
-                                                title="Logo-example-5-01" />
+                                                src="images/past_sponosrs/pvr.webp" alt="Logo-example-5-01"
+                                                itemprop="image" height="" width="" title="Logo-example-5-01" />
                                             </div>
                                           </div>
                                         </div>
@@ -6327,7 +6722,7 @@
                         </div>
                       </div>
                     </div>
-
+                  -->
 
                     <div section id="past-speakers"
                       class="fl-row fl-row-full-width fl-row-bg-photo fl-node-5b2c4c8fc9ced fl-row-bg-attachment-scroll "
@@ -6371,7 +6766,7 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="DIDIER RAPPAPORT">
+                                              <a title="DIDIER RAPPAPORT">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
                                                     src="/images/DIDIER_RAPPAPORT.webp"
                                                     class="attachment-full size-full" alt="" loading="lazy"
@@ -6388,19 +6783,21 @@
                                                     data-large-file="/images/DIDIER_RAPPAPORT.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.linkedin.com/in/didierrappaport/?originalSubdomain=fr"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#58904;</span></a>
-                                                
+
+                                                <a
+                                                  href="https://www.linkedin.com/in/didierrappaport/?originalSubdomain=fr"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#58904;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="DIDIER RAPPAPORT">
+                                                <a title="DIDIER RAPPAPORT">
                                                   DIDIER RAPPAPORT </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">Founder & CEO @ Happn</h5>
-                                              
+                                              <h5 class="regular-title-wrapper team-member-position">Founder & CEO @
+                                                Happn</h5>
+
                                             </div>
                                           </div>
                                         </div>
@@ -6415,36 +6812,36 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="ADARSH NAIR">
+                                              <a title="ADARSH NAIR">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
-                                                    src="/images/ADARSH NAIR.webp"
-                                                    class="attachment-full size-full" alt="" loading="lazy"
+                                                    src="/images/ADARSH NAIR.webp" class="attachment-full size-full"
+                                                    alt="" loading="lazy"
                                                     srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%20330%20390&quot;%20height=&quot;390px&quot;%20width=&quot;330px&quot;/&gt;"
                                                     data-srcset="/images/ADARSH NAIR.webp"
                                                     sizes="(max-width: 330px) 100vw, 330px" data-attachment-id="16001"
                                                     data-permalink="https://mann.vamtam.com/about/past-events/p-06/"
-                                                    data-orig-file="/images/ADARSH NAIR.webp"
-                                                    data-orig-size="330,390" data-comments-opened="1"
+                                                    data-orig-file="/images/ADARSH NAIR.webp" data-orig-size="330,390"
+                                                    data-comments-opened="1"
                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
                                                     data-image-title="p-06" data-image-description=""
-                                                    data-image-caption=""
-                                                    data-medium-file="/images/ADARSH NAIR.webp"
+                                                    data-image-caption="" data-medium-file="/images/ADARSH NAIR.webp"
                                                     data-large-file="/images/ADARSH NAIR.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.linkedin.com/in/adarshsnair/"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#58904;</span></a>
-                                                
+
+                                                <a href="https://www.linkedin.com/in/adarshsnair/"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#58904;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="ADARSH NAIR">
+                                                <a title="ADARSH NAIR">
                                                   ADARSH NAIR </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">CPO @ Airtel, CEO @ Wynk</h5>
-                                              
+                                              <h5 class="regular-title-wrapper team-member-position">CPO @ Airtel, CEO @
+                                                Wynk</h5>
+
                                             </div>
                                           </div>
                                         </div>
@@ -6461,36 +6858,36 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="RAHUL BOSE">
+                                              <a title="RAHUL BOSE">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
-                                                    src="/images/Rahul-Bose.webp"
-                                                    class="attachment-full size-full" alt="" loading="lazy"
+                                                    src="/images/Rahul-Bose.webp" class="attachment-full size-full"
+                                                    alt="" loading="lazy"
                                                     srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%20330%20390&quot;%20height=&quot;390px&quot;%20width=&quot;330px&quot;/&gt;"
                                                     data-srcset="/images/Rahul-Bose.webp"
                                                     sizes="(max-width: 330px) 100vw, 330px" data-attachment-id="16001"
                                                     data-permalink="https://mann.vamtam.com/about/past-events/p-06/"
-                                                    data-orig-file="/images/Rahul-Bose.webp"
-                                                    data-orig-size="330,390" data-comments-opened="1"
+                                                    data-orig-file="/images/Rahul-Bose.webp" data-orig-size="330,390"
+                                                    data-comments-opened="1"
                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
                                                     data-image-title="p-06" data-image-description=""
-                                                    data-image-caption=""
-                                                    data-medium-file="/images/Rahul-Bose.webp"
+                                                    data-image-caption="" data-medium-file="/images/Rahul-Bose.webp"
                                                     data-large-file="/images/Rahul-Bose.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.instagram.com/rahulbose7/"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#59718;</span></a>
-                                                
+
+                                                <a href="https://www.instagram.com/rahulbose7/"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#59718;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="RAHUL BOSE">
+                                                <a title="RAHUL BOSE">
                                                   RAHUL BOSE </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">Actor, Social Activist</h5>
-                                              
+                                              <h5 class="regular-title-wrapper team-member-position">Actor, Social
+                                                Activist</h5>
+
                                             </div>
                                           </div>
                                         </div>
@@ -6505,10 +6902,10 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="KENNY SEBASTIAN">
+                                              <a title="KENNY SEBASTIAN">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
-                                                    src="/images/Kenny-Sebastian.webp"
-                                                    class="attachment-full size-full" alt="" loading="lazy"
+                                                    src="/images/Kenny-Sebastian.webp" class="attachment-full size-full"
+                                                    alt="" loading="lazy"
                                                     srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%20330%20390&quot;%20height=&quot;390px&quot;%20width=&quot;330px&quot;/&gt;"
                                                     data-srcset="/images/Kenny-Sebastian.webp"
                                                     sizes="(max-width: 330px) 100vw, 330px" data-attachment-id="16001"
@@ -6522,19 +6919,20 @@
                                                     data-large-file="/images/Kenny-Sebastian.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.instagram.com/kennethseb/"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#59718;</span></a>
-                                                
+
+                                                <a href="https://www.instagram.com/kennethseb/"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#59718;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="KENNY SEBASTIAN">
+                                                <a title="KENNY SEBASTIAN">
                                                   KENNY SEBASTIAN </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">Stand-Up Comedian</h5>
-                                              
+                                              <h5 class="regular-title-wrapper team-member-position">Stand-Up Comedian
+                                              </h5>
+
                                             </div>
                                           </div>
                                         </div>
@@ -6549,36 +6947,37 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="PRAVEEN SINHA">
+                                              <a title="PRAVEEN SINHA">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
-                                                    src="/images/PRAVEEN SINHA.webp"
-                                                    class="attachment-full size-full" alt="" loading="lazy"
+                                                    src="/images/PRAVEEN SINHA.webp" class="attachment-full size-full"
+                                                    alt="" loading="lazy"
                                                     srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%20330%20390&quot;%20height=&quot;390px&quot;%20width=&quot;330px&quot;/&gt;"
                                                     data-srcset="/images/PRAVEEN SINHA.webp"
                                                     sizes="(max-width: 330px) 100vw, 330px" data-attachment-id="16001"
                                                     data-permalink="https://mann.vamtam.com/about/past-events/p-06/"
-                                                    data-orig-file="/images/PRAVEEN SINHA.webp"
-                                                    data-orig-size="330,390" data-comments-opened="1"
+                                                    data-orig-file="/images/PRAVEEN SINHA.webp" data-orig-size="330,390"
+                                                    data-comments-opened="1"
                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
                                                     data-image-title="p-06" data-image-description=""
-                                                    data-image-caption=""
-                                                    data-medium-file="/images/PRAVEEN SINHA.webp"
+                                                    data-image-caption="" data-medium-file="/images/PRAVEEN SINHA.webp"
                                                     data-large-file="/images/PRAVEEN SINHA.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.linkedin.com/in/praveensinhajabong/?originalSubdomain=in"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#58904;</span></a>
-                                                
+
+                                                <a
+                                                  href="https://www.linkedin.com/in/praveensinhajabong/?originalSubdomain=in"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#58904;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="PRAVEEN SINHA">
+                                                <a title="PRAVEEN SINHA">
                                                   PRAVEEN SINHA </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">Co-Founder @ Jabong</h5>
-                                              
+                                              <h5 class="regular-title-wrapper team-member-position">Co-Founder @ Jabong
+                                              </h5>
+
                                             </div>
                                           </div>
                                         </div>
@@ -6593,37 +6992,38 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="RAJIV SIKKA">
+                                              <a title="RAJIV SIKKA">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
-                                                    src="/images/Rajiv-Sikka.webp"
-                                                    class="attachment-full size-full" alt="" loading="lazy"
+                                                    src="/images/Rajiv-Sikka.webp" class="attachment-full size-full"
+                                                    alt="" loading="lazy"
                                                     srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%20330%20390&quot;%20height=&quot;390px&quot;%20width=&quot;330px&quot;/&gt;"
                                                     data-srcset="/images/Rajiv-Sikka.webp"
                                                     sizes="(max-width: 330px) 100vw, 330px" data-attachment-id="16001"
                                                     data-permalink="https://mann.vamtam.com/about/past-events/p-06/"
-                                                    data-orig-file="/images/Rajiv-Sikka.webp"
-                                                    data-orig-size="330,390" data-comments-opened="1"
+                                                    data-orig-file="/images/Rajiv-Sikka.webp" data-orig-size="330,390"
+                                                    data-comments-opened="1"
                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
                                                     data-image-title="p-06" data-image-description=""
-                                                    data-image-caption=""
-                                                    data-medium-file="/images/Rajiv-Sikka.webp"
+                                                    data-image-caption="" data-medium-file="/images/Rajiv-Sikka.webp"
                                                     data-large-file="/images/Rajiv-Sikka.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.linkedin.com/in/rajiv-sikka-31892122/?originalSubdomain=in"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#58904;</span></a>
-                                                
+
+                                                <a
+                                                  href="https://www.linkedin.com/in/rajiv-sikka-31892122/?originalSubdomain=in"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#58904;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="RAJIV SIKKA">
+                                                <a title="RAJIV SIKKA">
                                                   RAJIV SIKKA </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">CEO @ Indian Oil-Adani Gas
+                                              <h5 class="regular-title-wrapper team-member-position">CEO @ Indian
+                                                Oil-Adani Gas
                                               </h5>
-                                              
+
                                             </div>
                                           </div>
                                         </div>
@@ -6638,36 +7038,36 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="VINOD DHAM">
+                                              <a title="VINOD DHAM">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
-                                                    src="/images/Vinod-Dham.webp"
-                                                    class="attachment-full size-full" alt="" loading="lazy"
+                                                    src="/images/Vinod-Dham.webp" class="attachment-full size-full"
+                                                    alt="" loading="lazy"
                                                     srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%20330%20390&quot;%20height=&quot;390px&quot;%20width=&quot;330px&quot;/&gt;"
                                                     data-srcset="/images/Vinod-Dham.webp"
                                                     sizes="(max-width: 330px) 100vw, 330px" data-attachment-id="16001"
                                                     data-permalink="https://mann.vamtam.com/about/past-events/p-06/"
-                                                    data-orig-file="/images/Vinod-Dham.webp"
-                                                    data-orig-size="330,390" data-comments-opened="1"
+                                                    data-orig-file="/images/Vinod-Dham.webp" data-orig-size="330,390"
+                                                    data-comments-opened="1"
                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
                                                     data-image-title="p-06" data-image-description=""
-                                                    data-image-caption=""
-                                                    data-medium-file="/images/Vinod-Dham.webp"
+                                                    data-image-caption="" data-medium-file="/images/Vinod-Dham.webp"
                                                     data-large-file="/images/Vinod-Dham.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.linkedin.com/in/vinod-vin-dham-b07a7935/"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#58904;</span></a>
-                                                
+
+                                                <a href="https://www.linkedin.com/in/vinod-vin-dham-b07a7935/"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#58904;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="VINOD DHAM">
+                                                <a title="VINOD DHAM">
                                                   VINOD DHAM </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">Father of the Pentium Chip</h5>
-                                              
+                                              <h5 class="regular-title-wrapper team-member-position">Father of the
+                                                Pentium Chip</h5>
+
                                             </div>
                                           </div>
                                         </div>
@@ -6682,10 +7082,10 @@
                                         <div class="fl-module-content fl-node-content">
                                           <div class="team-member has-content">
                                             <div class="thumbnail">
-                                              <a  title="ASHWANI LOHANI">
+                                              <a title="ASHWANI LOHANI">
                                                 <div class="vamtam-responsive-wrapper"><img width="330" height="390"
-                                                    src="/images/ASHWANI-LOHANI.webp"
-                                                    class="attachment-full size-full" alt="" loading="lazy"
+                                                    src="/images/ASHWANI-LOHANI.webp" class="attachment-full size-full"
+                                                    alt="" loading="lazy"
                                                     srcset="data:image/svg+xml;utf8,&lt;svg%20xmlns=&quot;http://www.w3.org/2000/svg&quot;%20viewBox=&quot;0%200%20330%20390&quot;%20height=&quot;390px&quot;%20width=&quot;330px&quot;/&gt;"
                                                     data-srcset="/images/ASHWANI-LOHANI.webp"
                                                     sizes="(max-width: 330px) 100vw, 330px" data-attachment-id="16001"
@@ -6694,33 +7094,33 @@
                                                     data-orig-size="330,390" data-comments-opened="1"
                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
                                                     data-image-title="p-06" data-image-description=""
-                                                    data-image-caption=""
-                                                    data-medium-file="/images/ASHWANI-LOHANI.webp"
+                                                    data-image-caption="" data-medium-file="/images/ASHWANI-LOHANI.webp"
                                                     data-large-file="/images/ASHWANI-LOHANI.webp" /></div>
                                               </a>
                                               <div class="share-icons clearfix">
-                                                
-                                                <a href="https://www.linkedin.com/in/ashwani-lohani-856ab117/"><span class='icon shortcode theme  use-hover'
-                                                    style=''>&#58904;</span></a>
-                                                
+
+                                                <a href="https://www.linkedin.com/in/ashwani-lohani-856ab117/"><span
+                                                    class='icon shortcode theme  use-hover' style=''>&#58904;</span></a>
+
                                               </div>
                                             </div>
                                             <div class="team-member-info">
                                               <h4>
-                                                <a  title="ASHWANI LOHANI">
+                                                <a title="ASHWANI LOHANI">
                                                   ASHWANI LOHANI </a>
                                               </h4>
-                                              <h5 class="regular-title-wrapper team-member-position">CEO @ Air India Limited</h5>
-                                              
+                                              <h5 class="regular-title-wrapper team-member-position">CEO @ Air India
+                                                Limited</h5>
+
                                             </div>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                                  
-                                  
-                                   
+
+
+
                                 </div>
                               </div>
                             </div>
@@ -6729,8 +7129,8 @@
                       </div>
                     </div>
 
-                    
-                    
+
+
                     <div class="fl-col fl-node-59877c72c8983 fl-col-has-cols" data-node="59877c72c8983">
                       <div class="fl-col-content fl-node-content">
                         <div
@@ -7223,10 +7623,10 @@
                         data-vamtam-animation-options="{&quot;type&quot;:&quot;progressive&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:false,&quot;delay&quot;:-0.6,&quot;mobile&quot;:true,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
                         <div class="fl-module-content fl-node-content">
                           <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                            <a href="/tickets/" target="_self"
+                            <a href="" target="_self"
                               class="vamtam-button accent1 hover-accent2 button-solid icon-animation-disable"
                               role="button" style="font-size:14px;line-height:16px;padding:18px 36px;">
-                              <span class="vamtam-button-text">Get tickets</span>
+                              <span class="vamtam-button-text">Starting Soon !</span>
                             </a>
                           </div>
                         </div>
