@@ -49,6 +49,14 @@
     background-color: #00DBDE !important;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%) !important;
 }
+#about{
+    left: 35vw !important;
+}
+#about-text{
+    top: 23vw !important;
+    font-family: 'Ubuntu Mono' !important;
+    top:35%;left:32%;right:30%;
+}
 @media only screen and (max-width: 770px) {
     .normal-logo{
         width: 99px !important;
@@ -77,6 +85,16 @@
     }
     #slider-86-slide-284-layer-9{
         width: 1000px !important;
+    }
+    #about{
+        font-size: 37px !important;
+        left: 30vw !important;
+    }
+    #about-text{
+        font-size: 18px !important;
+        top: 250px !important;
+        left:20%;
+        right:15%;
     }
 }
 
@@ -110,5 +128,16 @@
     }
     .Price{
         font-size: 43px !important;
+    }
+    #about{
+        font-size: 25px !important;
+        top: 60vw !important;
+        left: 20vw !important;
+    }
+    #about-text{
+        font-size: 13px !important;
+        top: 260px !important;
+        left:11%;
+        right:4%;   
     }
 }
